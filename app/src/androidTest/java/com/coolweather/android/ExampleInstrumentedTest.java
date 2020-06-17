@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.coolweather.android", appContext.getPackageName());
+        assertEquals("com.coolweather.android", appContext.getPackageName());//nihaoi
     }
 }
